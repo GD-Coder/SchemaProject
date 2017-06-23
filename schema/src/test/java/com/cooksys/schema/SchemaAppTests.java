@@ -1,4 +1,4 @@
-package com.cooksys.friendlr;
+package com.cooksys.schema;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FriendlrApplicationTests {
+public class SchemaAppTests {
 
 	@Test
 	public void contextLoads() {
