@@ -10,17 +10,17 @@ public class SchemaApp {
 		Person human = new Person();
 		PersonDaoImpl person = new PersonDaoImpl();
 		person.findById(5);
-		human.setFirstName("James");
-		human.setLastName("Dean");
-		human.setLocation(2);
-		human.setAge(Long.valueOf(55));
-		
-		if(person.create(human)) {
-			System.out.println("Inserted");
-		}
-		else {
-			System.out.println("Something stupid happened...");
-		}
+//		human.setFirstName("Albert");
+//		human.setLastName("Einstien");
+//		human.setLocation(1);
+//		human.setAge(Long.valueOf(150));
+//		
+//		if(person.create(human)) {
+//			System.out.println("Inserted");
+//		}
+//		else {
+//			System.out.println("Something stupid happened...");
+//		}
 	}
 	
 	
