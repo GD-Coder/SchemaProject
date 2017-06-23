@@ -9,11 +9,11 @@ public class SchemaApp {
 	public static void main(String[] args) {
 		Person human = new Person();
 		PersonDaoImpl person = new PersonDaoImpl();
-		person.findById(5);
-//		human.setFirstName("Albert");
-//		human.setLastName("Einstien");
-//		human.setLocation(1);
-//		human.setAge(Long.valueOf(150));
+		person.findById(10);
+//		human.setFirstName("Dawn");
+//		human.setLastName("Huey");
+//		human.setLocation(3);
+//		human.setAge(Long.valueOf(36));
 //		
 //		if(person.create(human)) {
 //			System.out.println("Inserted");
