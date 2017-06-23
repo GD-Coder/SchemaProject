@@ -12,7 +12,7 @@ public class PersonDaoImpl implements PersonDAO {
 	ArrayList<Person> people = new ArrayList<Person>();
 	@Override
 	public List<Person> findById(Integer id) {
-		String selectTableSQL = "SELECT person_id, f_name, l_name, FROM schema_design.\"Person\" WHERE person_id = "+ id +";";
+		String selectTableSQL = "SELECT person_id, f_name, l_name, location FROM schema_design.\"Person\" WHERE person_id = "+ id +";";
 		try {
 			Statement statement = drive.getConnection().createStatement();
 			ResultSet rs = statement.executeQuery(selectTableSQL);
